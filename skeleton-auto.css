@@ -14,7 +14,12 @@
 
 */
 
-
+@font-face {
+  font-family: 'SFPro'; /* Give your font a unique name */
+  src: url('./extra/custom-assets/fonts/SFPRODISPLAYREGULAR.OTF') format('opentype');
+  font-weight: normal;  /* Specify the font's weight */
+  font-style: normal;  /* Specify the font's style */
+}
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -61,13 +66,12 @@
     font-size: 100%; }
 
   /* Dark/light mode detection (comment this section out and use the one below for a fixed background color) */
-    @media (prefers-color-scheme: dark) {
+    /* @media (prefers-color-scheme: dark) {
       body {
         font-size: 18px;
         line-height: 24px;
         font-weight: 400;
-        background: #292929;
-        background: radial-gradient(circle, #292929 28%, #1b1b1b 100%);
+        background-image: url('./extra/custom-assets/background.jpg');
         font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
         color: #FFFFFF; }
     }
@@ -79,17 +83,16 @@
         background: #F1F1F1;
         font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
         color: #222; }
-    }
+    } */
 
-/* Use this for a fixed background color instead of dark and light mode
     body {
       font-size: 18px;
       line-height: 24px;
       font-weight: 400;
-      font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
-        sans-serif;
+      background-image: url('./extra/custom-assets/background.jpg');
+      font-family: "SFPro","Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
-*/
+
   
   /* Typography
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
