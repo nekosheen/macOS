@@ -42,7 +42,7 @@ button {
   text-align: center;
   vertical-align: middle;
   font-size: 18px;
-  width: 300px;
+  width: 100%;
   font-weight: 700;
   line-height: 20px;
   padding: 14px 12px 12px 12px;
@@ -51,6 +51,7 @@ button {
   outline: none;
   border-radius: 8px;
   cursor: pointer;
+  
  }
 button:hover,
 .button:focus {
@@ -1080,3 +1081,4 @@ filter: brightness(90%);
 .button.button-youtube-music:focus {
   filter: brightness(90%);
 }
+*/
